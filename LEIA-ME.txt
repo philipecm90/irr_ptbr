@@ -1,0 +1,60 @@
+﻿========================================================================
+ INCURSION RED RIVER - TRADUCAO PT-BR  (v0.2)
+ (mantendo termos militares: Red Dot, loot, stash, loadout, calibres, etc.)
+========================================================================
+
+O QUE E
+-------
+Traducao em portugues brasileiro para Incursion Red River (UE 5.6).
+Usa DUAS tecnicas (as mesmas do patch coreano da comunidade):
+  1) Patch pak (_P.pak) -> traduz textos fixos gravados nos assets.
+  2) UE4SS + PTTranslator -> traduz em tempo de execucao os textos
+     dinamicos (missoes, HUD, mensagens, prompts, etc.).
+
+IMPORTANTE: o mod NAO altera nenhum arquivo original do jogo.
+Para voltar ao ingles, basta desinstalar.
+
+COMO INSTALAR
+-------------
+1. Feche o jogo.
+2. Execute "IRR_PTBR_Installer.exe".
+3. Clique em "Detectar" (ou "Procurar..." e selecione a pasta que
+   contem "Test_C").
+   - No Steam costuma ser: ...\steamapps\common\PROJECT QUARANTINE
+4. Clique em "INSTALAR TRADUCAO".
+5. Abra o jogo.
+
+COMO DESINSTALAR / VOLTAR AO INGLES
+-----------------------------------
+- Pelo instalador: execute o .exe e clique em "DESINSTALAR / RESTAURAR".
+- Ou apague manualmente:
+    Test_C\Content\Paks\pakchunk999-IRRPTBR_P.pak
+    Test_C\Binaries\Win64\dwmapi.dll
+    Test_C\Binaries\Win64\ue4ss\
+
+BACKUP
+------
+O instalador cria <pasta do jogo>\_IRRPTBR_backup\ com:
+  - manifest_original.txt  (estado original dos paks)
+  - files\                 (copia de qualquer arquivo sobrescrito)
+  - Desinstalar_PTBR.bat
+  - backup_info.txt
+
+INSTALACAO MANUAL (sem o .exe)
+------------------------------
+- Use o arquivo "Incursion_Red_River_PTBR_v1_Manual.zip": extraia o
+  conteudo na pasta raiz do jogo (a que contem a pasta "Test_C"),
+  mesclando as pastas quando solicitado.
+- (Alternativa) Copie o conteudo da pasta "payload" para dentro da
+  pasta do jogo, mesclando as pastas Test_C.
+
+OBSERVACOES
+-----------
+- Feche o jogo antes de instalar/desinstalar.
+- Se o Windows mostrar o SmartScreen, clique em "Mais informacoes" e
+  "Executar assim mesmo" (o instalador nao e assinado).
+- Atualizacoes do jogo podem quebrar o mod.
+- Termos militares e nomes de armas/marcas foram mantidos em ingles de
+  proposito (Red Dot, AKM, M4, EOTECH, etc.).
+
+Bom jogo!

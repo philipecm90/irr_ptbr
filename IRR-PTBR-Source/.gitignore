@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+payload/
+*.pak
+*.dll
+*.usmap
+pt_dump.txt
+pt_seen.txt
